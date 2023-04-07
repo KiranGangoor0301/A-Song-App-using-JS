@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&family=Roboto+Condensed&family=Sofia+Sans:wght@200;300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.navi
+{
+    /* font-weight: bold; */
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+    height: 60px;
+    
+}
+.navi span{
+    font-weight:bolder;
+    font-family: 'Noto Sans', sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    margin: 0px 60px;
+}
+.navi img{
+    margin: 0px 12px;
+   ;
+}
+nav ul li {
+    list-style-type: none;
+    padding: 12px;
+    }
+    nav ul li:hover{
+        background-color: rgba(112, 193, 30, 0.645);
+        cursor: pointer;
+    }
+
+    .container
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 74vh;
+        background-color: antiquewhite;
+    }
+    .list{
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-position: bottom right;
+        background-color: black;
+        width: 900px;
+        height:500px;
+        cursor: pointer;
+    }
+    .player
+    {
+        min-height: 16vh;
+        background-color: black;
+    }
+    .songsList{
+    height: 53px;
+    width: 491px;
+    margin: 25px 51px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+.duration{
+    margin: 0px 23px;
+}
+.song{
+    margin: 0px 81px;
+    font-weight: bolder;
+}
+.songsList img{
+    height: 45px;
+    width: 58px;
+    margin: 0px 20px;
+    border-radius: 300px;
+}
+.progressBar
+{
+    width:1280px;
+    margin: 11px 110px;
+    cursor: pointer;
+}
+.player{
+    justify-content:center;
+    align-items: center;
+    background-color:black;
+}
+.controls{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 143px;
+    margin: -11px 727px;
+    border-radius: 23px;
+    cursor: pointer;
+}
+.songName{
+    color: white;
+    margin: 0px 200px;
+}
+#gif
+{
+    opacity: 0;
+}
