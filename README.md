@@ -1,4 +1,4 @@
-Welcome to the Readme file for the Song App!
+
 
 This document will provide you with all the necessary information to set up and use the Song App built using JavaScript.
 
